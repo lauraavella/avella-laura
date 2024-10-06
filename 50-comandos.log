@@ -1,0 +1,50 @@
+   17  cd Desktop
+   18  cd ..
+   19  mkdir Prueba2
+   20  mv Prueba1/miarchivocopiado.txt Prueba2
+   21  mv Prueba2/miarchivocopiado.txt Prueba2/miarchivorenombrado.txt
+   22  rm Prueba2/miarchivorenombrado.txt
+   23  rm -r Prueba1
+   24  head El-arriero.txt
+   25  car El-arriero.txt
+   26  cat El-arriero.txt
+   27  tail -n 2 El-arriero.txt
+   28  wc -w El-arriero.txt
+   29  wc -l El-arriero.txt
+   30  wc -c El-arriero.txt
+   31  head El-arriero.txt | wc -l
+   32  head -n 2 El-arriero.txt | tr 'e' 'X'
+   33  cat El-arriero.txt | tr '''\n'
+   34  cat El-arriero.txt | tr ' ' '\n'
+   35  cat El-arriero.txt | tr ' ' '\n' > El-arriero-palabras.txt
+   36  cat El-arriero.txt | tr sort
+   37  cat El-arriero.txt | sort
+   38  cat El-arriero.txt | sort | iniq 
+   39  cat El-arriero.txt | sort | uniq
+   40  cat El-arriero.txt | sort | uniq -c
+   41  wc -w El-arriero.txt
+   42  cat El-arriero.txt | tr ' ' '\n'
+   43  cat El-arriero.txt | tr ' ' '\n' | sort | uniq -c
+   44  cat El-arriero.txt | tr ' ' '\n' | sort | uniq -c > El-arriero-palabras
+   45  cat El-arriero.txt | tr ' ' '\n' | sort | uniq -c > El-arriero-palabras.txt
+   46  tail -n 5 El-arriero-palabras.txt
+   47  tail -n 5 El-arriero-palabras.txt | tail -4
+   48  tail -n 5 El-arriero-palabras.txt > El-arriero-ultimas-palabras.txt
+   49  head -1 El-arriero-ultimas-palabras.txt
+   50  cat El-arriero.txt | tr ' ' '\n' | sort | uniq -c > El-arriero-palabras.txt | tail -n 5 El-arriero-palabras.txt >El-arriero-ultimas-palabras.txt | head -1 El-arriero-ultimas-palabras.txt
+   51  history
+   52  history > 50-comandos.log
+   53  history
+   54  history -500
+   55  history - 500
+   56  history > 50-comandos.log
+   57  history > 50-comandos.log
+   58  50-comandos.log > 1
+   59  mv 50-comanodos.log 50-com.log
+   60  mv Desktop/50-comandos.log Desktop/50-com.log
+   61  tail -n50 50-comandos.log
+   62  cat tail -n50 50-comandos.log > 50-comandos.log
+   63  tail -n50 50 comandos.log > 50-comandos.log
+   64  history
+   65  tail -n 50 history
+   66  history > palabras.txt
